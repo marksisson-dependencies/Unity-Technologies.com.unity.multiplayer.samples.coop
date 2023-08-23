@@ -1,6 +1,14 @@
 # Multiplayer Samples Co-op Changelog
 
-## [unreleased] - yyyy-mm-dd
+## [1.6.1] - 2023-06-14
+
+### Fixed
+* Updating package dependency to Netcode for GameObjects version 1.4.0 (#839)
+
+## [1.6.0] - 2023-04-27
+
+### Changed
+* Removed need for SceneLoaderWrapper.AddOnSceneEventCallback (#830). The OnServerStarted and OnClientStarted callbacks available in NGO 1.4.0 allows us to remove the need for an external method to initialize the SceneLoaderWrapper after starting a NetworkingSession.
 
 ## [1.5.1] - 2022-12-13
 ### Changed
